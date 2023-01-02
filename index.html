@@ -1,0 +1,225 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website - Shakeeb</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/95051eecbf.js" crossorigin="anonymous"></script>
+    <style> @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap'); </style>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Software Developer</p>
+                <h1>Hi, I am <span>Shakeeb Ahmad </span> from Pakistan</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-----------------------About-------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/shakeeb.jpg" alt="">
+
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p class="about-justify">My name is Shakeeb Ahmad and i am professional Software Developer. I have 2+ years Flutter Developer experience and have developed many Applications using Flutter and Firebase and also work with different Apis as well. I also work in Reactjs, Node js, Figma, UI/UX design, and i am also a desinger as well. Designer mean Logo Designer, Video Editior, Clo3d etc. I can write Apis as well using nodejs.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                        <li><span>Flutter Developer</span><br>Developing Websites and Applications</li>
+                        <li><span>React Developer</span><br>Developing Websites and Applications</li>
+                        <li><span>Graphic Designer</span><br>Logo Creation</li>
+                        <li><span>UI/UX</span><br>Desiging Web/App Interfaces</li>
+                        <li><span>Clo3D</span><br>Virtual Clothing</li>
+                        <li><span>Premier Pro</span><br>Video Editing</li>
+                        <li><span>Apis</span><br>Write and Link Apis</li>
+                    </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                        <li><span>2022 - Current</span><br>Flutter Developer at Fiverr</li>
+                        <li><span>2021 - 2022</span><br>Leading Flutter Developer at Xoho Tech PVT Company</li>
+                        <li><span>2019 - 2020</span><br>Flutter Internship at Jazari Software House</li>
+                    </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                        <li><span>2018 - 2022</span><br>BS Software Engineering at Comsats University</li>
+                        <li><span>2019</span><br>6 months Graphic Desiging Workshop in University</li>
+                        <li><span>2015 - 2017</span><br>FSC Pre Engineering at Govt College</li>
+                    </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        <!-----------------------Services-------------------->
+        <div id="services">
+            <div class="container">
+                <h1 class="sub-title">My Services</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>Software Development</h2>
+                        <p>I provide any kind of application/websites development using flutter and firebase and react and node js. I have 2+ years app development experience and developed many applications/websites within these 2 years.</p>
+                        <a href="#">Learn More</a>
+                    </div>
+                    <div>
+                        <i class="fa-sharp fa-solid fa-pen-nib"></i>
+                        <h2>Graphic Desiging</h2>
+                        <p>I can provide you with any kind of desiging you want like logo creation, banners, posters, social media kits, cards, photo editing, video editing and much more. I have 2 and half years of desiging experience. I have created many designs in this 2 and half years of time.</p>
+                        <a href="#">Learn More</a>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-figma"></i>
+                        <h2>UI/UX</h2>
+                        <p>I can provide you with any kind of design you want for your website or for application. I have created many interfaces using figma, adobe xd etc. I have 1 year of experience in making UI/UX designs.</p>
+                        <a href="#">Learn More</a>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+            <!-----------------------Portfolio-------------------->
+
+            <div id="portfolio">
+
+                <div class="container">
+                    <h1 class="sub-title">My Work</h1>
+                    <div class="work-list">
+                        <div class="work">
+                            <img src="images/jajaja.webp">
+                            <div class="layer">
+                                <h3>Food App</h3>
+                                <p>This was the app i created using flutter and firbase where you can order food online. I have created 3 apps related to this for Users, Sellers and delivery man. It was a good app used many features like map apis, payment module, chat functionality etc. It took like 2 and half months to create this it was very good.</p>
+                                <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                        <div class="work">
+                            <img src="images/9d7c5e9f0527a3d88148c1f42d4fccfd.webp">
+                            <div class="layer">
+                                <h3>Music App</h3>
+                                <p>I created it for my nigerian customer. It was also created using flutter and firebase. It was the app where you can record your musics share with others people can react, share and support you. It took me 2 months to create it. I also design UI for this.</p>
+                                <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                        <div class="work">
+                            <img src="images/original-9d67a2dcff69ac0ced6eca8093778ca2.webp">
+                            <div class="layer">
+                                <h3>Flight reservation App</h3>
+                                <p>The flight application where we can basically book a whole vacation. It was created in flutter and backend in firebase. It contain payment apis and maps apis. You can book flight with resorts include. I developed it for my US customer. It took me 1 and half month to developed it. I also create UI for it.</p>
+                                <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        
+                        </div>
+                    </div>
+                    <a href="#" class="btn">See More</a>
+                </div>
+            </div>
+<!----------------------- Contact -------------------->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i> shakeebsun@gmail.com</p>                
+                <p><i class="fas fa-phone-square-alt"></i> +92 3097146876</p>
+                <div class="social-icons"> 
+                    <a href="https://www.facebook.com/shakeebsun"><i class="fab fa-facebook"></i></a>
+                    <a href="https://instagram.com/shakeebcutie?igshid=ZDdkNTZiNTM="><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/shakeeb-ahmed-khan-81837916b"><i class="fab fa-linkedin"></i></a>
+                </div>
+                <a href="images/Minimalist CV Resume.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" rows="10" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>      
+
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © 2022 Shakeeb Ahmad</p>
+    </div>
+</div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+            
+        }
+        </script>
+
+        <script>
+            var sidemeu = document.getElementById("sidemenu");
+
+            function openmenu(){
+                sidemeu.style.right = "0";
+            }
+            function closemenu(){
+                sidemeu.style.right = "-200px";
+            }
+
+
+        </script>
+
+        <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbxrypL8kJTYSOgJxTaPfzp6irSYtfIpHRPEI1IBBEHC_RJ6rbrDVV2Q4KOV_GrB5nn3/exec'
+            const form = document.forms['submit-to-google-sheet']
+            const msg = document.getElementById("msg")
+          
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => {
+                    msg.innerHTML = "Message Sent Successfully"
+                    setTimeout(function(){
+                        ms.innerHTML = ""
+                    },5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+            })
+          </script>
+    
+</body>
+</html>
